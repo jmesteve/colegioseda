@@ -1,0 +1,226 @@
+html{
+	background-color: white;
+	margin: 20px;
+}
+body { font-size: 13px; line-height: 1.6; position: relative;
+	//background-color: #F1F1F1;
+	font-family: "Helvetica Neue" ,Arial,Helvetica,sans-serif;
+}
+/* Links */
+a { color: #8A9299; }
+a:link, a:visited { text-decoration: none }
+a:hover, a:active { color: #3d4247; outline: none }
+/* Headings */
+h1, h2, h3, h4, h5, h6, .auto-headings .copy p:first-child strong:first-child { color: #424242; font-weight: bold; line-height: 1.2; }
+h1 { font-size: 24px }
+h2 { font-size: 18px }
+h3 { font-size: 16px }
+h4 { font-size: 13px; text-transform: uppercase; letter-spacing: 1px; }
+/* Basic Elements*/
+p { margin-bottom: 15px }
+em { font-style: italic }
+strong { font-weight: bold }
+small { font-size: 11px }
+label { cursor: pointer }
+pre, code { font-family: Monaco, Consolas, "Courier New", monospace }
+pre { display: block; background: #eee; padding: 10px; margin: 10px 0; text-shadow: 0 1px #fff; overflow: auto;}
+input, textarea { font-family: Helvetica, Arial, sans-serif; -webkit-appearance: none; }
+/* reusable helper classes */
+.hidden { display: none }
+.icon { position: absolute; top: 0; }
+/* clearfix */
+.clear { clear: both }
+.clearfix { display: block }
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+* html .clearfix { height: 1% }
+html[xmlns] .clearfix { display: block }
+
+/* SELF-CLEARING FLOATS
+----------------------------------------------------------------------*/
+#lala:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* LAYOUT (CORE STYLES)
+-------------------------------------------------------------- */
+
+.inner {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#main {
+	min-width: 1040px;
+	min-height: 660px;
+	background-color: #F1F1F1;
+	height: 100%;
+}
+
+#sidebar {
+	width: 240px;
+	min-height: 660px;
+	float: left;
+	background-color: white;
+	
+	/*-webkit-box-shadow:5px 0 15px 5px rgba(0,0,0,0.6);
+	-moz-box-shadow:5px 0 15px 5px rgba(0,0,0,0.6);
+	box-shadow:5px 0 15px 5px rgba(0,0,0,0.6);*/
+}
+
+#mainContent {
+	float: right;
+	width: auto;
+	position: relative;
+	//background-color: blue;
+}
+
+#sidebar ul.menu {
+	text-align: right;
+	margin: 200px 25px 40px 0;
+	line-height: 1.4;
+}
+#sidebar ul.subMenu {
+	text-align: right;
+	margin-right: 25px;
+	line-height: 1.4;
+}
+	#sidebar ul  li {
+		
+	}
+		#sidebar ul.menu  li a {
+			font-size: 20px;
+		}
+		#sidebar ul.subMenu  li a {
+			font-size: 16px;
+		}
+
+
+.miniBar{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 10px 10px 0 0;
+	width: 400px;
+}
+
+.miniBar ul{
+	text-transform: uppercase;
+	margin: 5px 20px 0 0;
+	float: right;
+}
+	.miniBar ul li {
+		float: right;
+		margin: 0 0 0 10px;
+	}
+		.miniBar ul li a {
+			text-transform: uppercase;
+			font-size: 9px;
+			color: black;
+		}
+		.miniBar ul li a:hover {
+			color: white;
+		}
+
+#slider {
+	margin: 0 auto 0 auto;
+    width:640px; /* Change this to your images width */
+    height:361px; /* Change this to your images height */
+    background:url(themes/default/loading.gif) no-repeat 50% 50%;
+    text-shadow: none;
+}
+	#slider img {
+	     position:absolute;
+	     top:0px;
+	     left:0px;
+	     width: 600px;
+	     display:none;
+	 }
+	 #slider a {
+	     border:0;
+	     display:block;
+	     text-shadow: none;
+	 }
+	 
+input{
+	-webkit-appearance: textfield;
+	background-color: white;
+	border: 2px inset;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	cursor: auto;
+}
+	#searchBox {
+		font-size: 110%;
+		height: 24px;
+		width: 160px;
+		float: right;
+		padding-left: 5px;
+	}
+	
+	#searchForm button{
+		cursor: pointer;
+		-webkit-appearance: button;
+		
+		width: 18px;
+		height: 18px;
+		text-indent: -1000px;
+		overflow: hidden;
+		border: 0;
+		background: transparent url(http://cdn1.sbnation.com/images/verge/search-magnifying-glass.ve4fd3ff.png) no-repeat 0 0;
+		position: absolute;
+		top: 17px;
+		right: 8px;
+		margin-top: -10px;
+		-ms-filter: "alpha(opacity=70)";
+		filter: alpha(opacity=5);
+		-moz-opacity: .5;
+		-khtml-opacity: .5;
+		opacity: .5;
+	}
+		
+/* Shared styles */
+.drop-shadow {
+    position:relative;
+}
+
+.drop-shadow:before,
+.drop-shadow:after {
+    content:"";
+    position:absolute; 
+    z-index:-1;
+}
+
+/* Curved shadows */
+
+.curved:before {
+    top:15px;
+    bottom:15px;
+    right: -10px;
+    left: 120px;
+    -webkit-box-shadow:0 0 15px rgba(0,0,0,0.6);
+    -moz-box-shadow:0 0 15px rgba(0,0,0,0.6);
+    box-shadow:0 0 15px rgba(0,0,0,0.6);
+    -moz-border-radius:10px / 100px;
+    border-radius:10px / 100px;
+}
+
+.curved-vt-2:before {
+    right:0;
+}
+
+.curved-hz-1:before {
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+
+.curved-hz-2:before {
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+        

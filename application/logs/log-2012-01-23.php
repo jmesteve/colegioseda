@@ -1,0 +1,26 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2012-01-23 05:50:28 --> Severity: Notice  --> Undefined index:  id /homepages/21/d373852168/htdocs/application/controllers/section.php 29
+ERROR - 2012-01-23 05:50:28 --> Severity: Notice  --> Undefined index:  active /homepages/21/d373852168/htdocs/application/controllers/section.php 34
+ERROR - 2012-01-23 05:50:29 --> Severity: Notice  --> Undefined index:  name /homepages/21/d373852168/htdocs/application/views/sections/no-active-section.php 7
+ERROR - 2012-01-23 05:50:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 05:50:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 05:50:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 05:50:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 05:50:29 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 07:17:12 --> Severity: Notice  --> Undefined index:  id /homepages/21/d373852168/htdocs/application/controllers/section.php 29
+ERROR - 2012-01-23 07:17:12 --> Severity: Notice  --> Undefined index:  active /homepages/21/d373852168/htdocs/application/controllers/section.php 34
+ERROR - 2012-01-23 07:17:12 --> Severity: Notice  --> Undefined index:  name /homepages/21/d373852168/htdocs/application/views/sections/no-active-section.php 7
+ERROR - 2012-01-23 07:17:12 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 07:17:12 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 07:17:12 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 07:17:12 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 07:17:12 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 08:55:37 --> Severity: Notice  --> Undefined index:  id /homepages/21/d373852168/htdocs/application/controllers/section.php 29
+ERROR - 2012-01-23 08:55:37 --> Severity: Notice  --> Undefined index:  active /homepages/21/d373852168/htdocs/application/controllers/section.php 34
+ERROR - 2012-01-23 08:55:37 --> Severity: Notice  --> Undefined index:  name /homepages/21/d373852168/htdocs/application/views/sections/no-active-section.php 7
+ERROR - 2012-01-23 08:55:37 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 08:55:37 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 08:55:37 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 08:55:37 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
+ERROR - 2012-01-23 08:55:37 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /homepages/21/d373852168/htdocs/system/core/Exceptions.php:170) /homepages/21/d373852168/htdocs/system/core/Output.php 337
